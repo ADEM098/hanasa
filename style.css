@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+body {
+ font-family: "Roboto", sans-serif;
+ overflow-x: hidden;
+}
+footer {
+text-align: center;
+padding: 15px;
+background-color: #C47C6A;
+color: white;
+margin-top: 30px;
+}
+.container{
+    margin: 0 7rem;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+#home {
+    height: 100vh;
+    background: #ffffff;
+    color: #fff;
+}
+nav .logo {
+    width: 70px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul a{
+    color: rgb(196, 124 ,106);
+    padding: 20px;
+}
+.content {
+    color:  rgb(196, 124 ,106);
+}
+#home .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+}
+#home .content img {
+    width: 150px;
+    animation:animation1 4s ease-out;
+}
+#home .content .content-text h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+#home .content .content-text h1 span {
+    font-size: 30px;
+}
+#home .content .content-text h1 p {
+    font-weight: 900;
+    margin-bottom: 30px;
+    line-height: 1.4 ;
+    width: 60%;
+}
+.btn {
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color:rgb(196, 124 ,106);
+    border-radius: 30px;
+    color: white;
+}
+.btn:hover {
+    background-color: transparent;
+    color: rgb(196, 124 ,106);
+    border: 1px solid #fff;
+}
+.social {
+    margin-left: 3rem;
+    animation:animation1 3s ease-in;
+}
+.social i{
+    color: rgb(196, 124 ,106);
+    font-size: 25px;
+    margin: 10px 0;
+}
+@keyframes animation1 {
+0% {
+    transform: translateX(500px);
+}
+100% {
+    transform: translateX(0);
+}
+}
+@media (max-width: 900px) {
+    .container{
+        margin: 0 1rem;
+    }
+    nav ul a{
+        padding: 10px;
+    }
+    #home .content{
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 0 0;
+    }
+    #home .content .content-text h1 p {
+        width: 100%;
+    }
+    #home .content .content-text {
+        margin-bottom: 2rem;
+    }
+    #home .content img {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    .social{
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    
+}
+@media (max-width: 600px){
+    nav {
+        display: block;
+    }
+    nav .logo{
+        display: block;
+        margin: 0 auto 15px;
+    }
+    nav ul {
+        justify-content: center;
+
+    }
+    nav ul a{
+        font-size: 12px;
+    }
+}
+body {
+font-family: 'Poppins', sans-serif;
+margin: 0;
+background-color: #fff8f6;
+color: #4b2e2b;
+}
+
+header {
+background-color: #C47C6A;
+color: white;
+padding: 15px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header h1 {
+margin: 0;
+font-size: 1.6em;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin-left: 15px;
+font-weight: 500;
+}
+
+nav a.active {
+text-decoration: underline;
+}
+
+.hero {
+text-align: center;
+padding: 60px 20px;
+background-color: #f8ede9;
+color: #C47C6A;
+}
+
+.about {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 40px 20px;
+}
+
+.about .text {
+max-width: 500px;
+margin: 20px;
+color:rgb(196, 124 ,106);
+}
+
+.gallery {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 15px;
+margin-top: 20px;
+}
+
+.gallery img {
+width: 250px;
+height: 250px;
+object-fit: cover;
+border-radius: 10px;
+}
+
+.contact {
+text-align: center;
+padding: 50px 20px;
+color: rgb(196, 124 ,106) ;
+}
+
+.contact-info p {
+margin: 10px 0;
+font-size: 1.1em;
+}
+
+footer {
+text-align: center;
+padding: 15px;
+background-color: #C47C6A;
+color: white;
+margin-top: 30px;
+}
+.hanasa {
+background-color: #f8ede9;
+text-align: center;
+padding: 40px 20px;
+border-top: 2px solid #C47C6A;
+border-bottom: 2px solid #C47C6A;
+}
+
+.hanasa h3 {
+color: #C47C6A;
+font-size: 1.6em;
+margin-bottom: 15px;
+}
+
+.hanasa p {
+font-size: 1.1em;
+line-height: 1.6;
+max-width: 600px;
+margin: 0 auto;
+color: #C47C6A;
+}
+
+
